@@ -7,6 +7,7 @@
 
     {% for i in gallerys.all %}
         {{ i.description }}
+        <img src="{{ i.image.url }}" alt="">
         <br>
     {% endfor %}
 

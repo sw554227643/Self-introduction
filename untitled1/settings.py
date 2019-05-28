@@ -122,3 +122,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#媒体文件网址
+MEDIA_URL = '/media/'
+
+#文件夹根目录路径,格式从上面帮助获得,将路径合并
+MEDIA_ROOT = os.path.join(BASE_DIR, 'midia')
